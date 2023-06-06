@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ACCOUNT-SERVICES" />
+        <module name="REGISTRY-SERVICE" />
+        <module name="CUSTOMER-SERVICES" />
+        <module name="USER-SERVICES" />
+        <module name="APIGATEWAY-SERVICES" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ACCOUNT-SERVICES" target="17" />
+      <module name="APIGATEWAY-SERVICES" target="17" />
+      <module name="CUSTOMER-SERVICES" target="17" />
+      <module name="REGISTRY-SERVICE" target="17" />
+      <module name="SERVICE-REGISTRY" target="17" />
+      <module name="USER-SERVICES" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ACCOUNT-SERVICES" options="-parameters" />
+      <module name="APIGATEWAY-SERVICES" options="-parameters" />
+      <module name="CUSTOMER-SERVICES" options="-parameters" />
+      <module name="REGISTRY-SERVICE" options="-parameters" />
+      <module name="SERVICE-REGISTRY" options="-parameters" />
+      <module name="USER-SERVICES" options="-parameters" />
+    </option>
+  </component>
+</project>

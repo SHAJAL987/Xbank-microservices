@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SERVICE-REGISTRY:war">
+    <output-path>$PROJECT_DIR$/USER-SERVICES/src/main/SERVICE-REGISTRY/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SERVICE-REGISTRY</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SERVICE-REGISTRY-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SERVICE-REGISTRY:war exploded" />
+    </root>
+  </artifact>
+</component>

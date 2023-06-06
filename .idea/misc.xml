@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ACCOUNT-SERVICES" />
+    <file type="web" url="file://$PROJECT_DIR$/APIGATEWAY-SERVICES" />
+    <file type="web" url="file://$PROJECT_DIR$/CUSTOMER-SERVICES" />
+    <file type="web" url="file://$PROJECT_DIR$/REGISTRY-SERVICES" />
+    <file type="web" url="file://$PROJECT_DIR$/USER-SERVICES" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/USER-SERVICES/pom.xml" />
+        <option value="$PROJECT_DIR$/USER-SERVICES/src/main/SERVICE-REGISTRY/pom.xml" />
+        <option value="$PROJECT_DIR$/REGISTRY-SERVICE/pom.xml" />
+        <option value="$PROJECT_DIR$/CUSTOMER-SERVICES/pom.xml" />
+        <option value="$PROJECT_DIR$/ACCOUNT-SERVICES/pom.xml" />
+        <option value="$PROJECT_DIR$/APIGATEWAY-SERVICES/pom.xml" />
+        <option value="$PROJECT_DIR$/REGISTRY-SERVICES/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+</project>
